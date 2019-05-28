@@ -17,7 +17,7 @@ class String
   def count_sentences
     # Use Regex 
     # scan: for each match, a result is generated and either added to the result array
-    self.scan(/[^\.!?]+[\.!?]/).map.count
+    self.scan(/[^\.!?]+[\.!?]/).count
     
   end
 end
