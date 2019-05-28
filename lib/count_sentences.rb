@@ -17,7 +17,7 @@ class String
   def count_sentences
     # Use Regex 
     # scan: for each match, a result is generated and either added to the result array
-    # must have [] + [] because it is for one or more of 
+    # must have [] + [] because it is for one or more of [.!?]
     self.scan(/[^\.!?]+[\.!?]/).count
     
   end
