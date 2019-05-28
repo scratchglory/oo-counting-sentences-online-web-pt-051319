@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    # self.split(".").count
+    #=> scan has regex to split string and strip will remove trailing spaces.
     self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
   end
 end
