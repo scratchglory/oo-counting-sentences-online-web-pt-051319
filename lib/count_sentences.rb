@@ -18,7 +18,7 @@ class String
     # Use Regex 
     # scan: for each match, a result is generated and either added to the result array
     # strip returns a copy of str with leading and trailing whitespace removed.
-    self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
+    self.scan(/[^\.!?]+[\.!?]/).map.count
     
   end
 end
