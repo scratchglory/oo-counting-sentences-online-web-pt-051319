@@ -16,8 +16,8 @@ class String
 
   def count_sentences
     # Use Regex 
-    # scan 
-    # strip eturns a copy of str with leading and trailing whitespace removed.
+    # scan: for each match, a result is generated and either added to the result array
+    # strip returns a copy of str with leading and trailing whitespace removed.
     self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
     
   end
